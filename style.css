@@ -68,6 +68,7 @@ main {
     width: 100%;
     background-color: hsl(224, 36%, 15%);
     padding: 10px;
+    height: 70px;
     border-radius: 5px;
     display: flex;
     justify-content: end;
@@ -121,18 +122,102 @@ button:hover{
    text-transform: uppercase;
 }
 .normal{
-    background-color: white;
+    background-color:  hsl(0, 0%, 90%);
 }
 .normal .theme-div button{
     span{
         transform: translateX(15px);
     }
 }
+.normal p{
+    color: hsl(60, 10%, 19%);
+}
+.normal .toggle{
+    background-color: hsl(0, 5%, 81%);
+    span{
+    background-color: hsl(25, 98%, 40%);
+}
+} 
+ 
+.normal .calculation-div{
+    background-color: hsl(0, 0%, 93%);
+    span{
+        color: hsl(60, 10%, 19%);
+    }
+}
+.normal .btn-div{
+    background-color: hsl(0, 5%, 81%);
+}
+.normal button{
+    background-color: hsl(0, 0%, 90%);
+    box-shadow: 5px 5px 10px hsl(35, 11%, 61%);
+}
+.normal .del{
+    background-color: hsl(185, 42%, 37%);
+    box-shadow: 2px 2px 2px hsl(185, 58%, 25%);
+}
+.normal .reset{
+    background-color: hsl(185, 42%, 37%);
+    box-shadow: 2px 2px 2px hsl(185, 58%, 25%); 
+}
+.normal .equal{
+    background-color: hsl(25, 98%, 40%);
+    box-shadow: 2px 2px 2px hsl(25, 99%, 27%);
+}
+
 .dark{
-    background-color: yellow;
+    background-color: hsl(268, 75%, 9%);
+}
+.dark p{
+    color: hsl(52, 100%, 62%);
 }
 .dark .theme-div button{
+     background-color: hsl(268, 71%, 12%);
+     box-shadow: none;
     span{
         transform: translateX(25px);
+        background-color: hsl(176, 100%, 44%);
     }
+}
+.dark .calculation-div{
+    background-color: hsl(268, 71%, 12%);
+    span{
+        color: hsl(52, 100%, 62%);
+    }
+}
+.dark .btn-div{
+    background-color: hsl(268, 71%, 12%);
+}
+.dark .btn-div button{
+    background-color: hsl(268, 47%, 21%);
+     color: hsl(52, 100%, 62%);
+     box-shadow: 0px 4px 0px hsl(290, 70%, 36%);
+     font-weight: bolder;
+}
+.dark .btn-div .del{
+    background-color: hsl(281, 89%, 26%);
+    box-shadow:0px 4px 0px hsl(285, 91%, 52%) ;
+    color:  hsl(0, 100%, 100%);
+}
+.dark .btn-div .reset{
+   background-color: hsl(281, 89%, 26%);
+    box-shadow:0px 4px 0px hsl(285, 91%, 52%) ;  
+    color:  hsl(0, 100%, 100%);  
+}
+.dark .btn-div .equal{
+background-color: hsl(176, 100%, 44%);
+box-shadow: 0px 4px 0px hsl(177, 92%, 70%);
+color: hsl(198, 20%, 13%);
+}
+
+
+@media  (max-width:420px) {
+    body{
+        padding: 15px;
+    }
+  button{
+    font-size: 15px;
+    padding:10px 5px;
+  }
+   
 }
