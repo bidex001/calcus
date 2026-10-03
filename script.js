@@ -2,7 +2,12 @@ const toggle  = document.querySelector(".toggle")
 const screenValue = document.querySelector(".screen-value")
 const btns = Array.from(document.querySelectorAll("button"))
 const body = document.querySelector("body")
+const main = document.querySelector("main")
 console.log(btns)
+
+main.addEventListener("dblclick",(e)=>{
+    e.preventDefault()
+})
 
 toggle.addEventListener("click",()=>{
     if( body.classList.contains("normal")){
