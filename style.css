@@ -216,13 +216,13 @@ color: hsl(198, 20%, 13%);
         padding: 15px;
     }
   button{
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
     padding:10px 5px;
 
   }
   .calculation-div{
-    height: 90px;
+    height: 100px;
     span{
         font-size: 46px;
     }
