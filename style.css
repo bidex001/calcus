@@ -216,8 +216,29 @@ color: hsl(198, 20%, 13%);
         padding: 15px;
     }
   button{
-    font-size: 15px;
+    font-size: 25px;
+    font-weight: bold;
     padding:10px 5px;
+
   }
+  .calculation-div{
+    height: 90px;
+    span{
+        font-size: 46px;
+    }
+  }
+  .theme-div .toggle{
+    width: 50px;
+    span{
+        height: 20px;
+        width: 20px;
+        
+    }
+  }
+  .normal .theme-div .toggle{
+    span{
+        transform: translateX(13px);
+    }
+  } 
    
 }
